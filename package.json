@@ -1,0 +1,33 @@
+{
+  "name": "speedbump",
+  "version": "0.2.0",
+  "description": "Quickly bump package.json version.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install package.json && npm install -g",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyStiles/speedbump.git"
+  },
+  "bin": {
+    "speedbump": "./index.js"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "bump",
+    "update",
+    "semver"
+  ],
+  "author": "Timothy Stiles",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TimothyStiles/speedbump/issues"
+  },
+  "homepage": "https://github.com/TimothyStiles/speedbump#readme",
+  "dependencies": {
+    "commander": "^2.15.0"
+  }
+}
