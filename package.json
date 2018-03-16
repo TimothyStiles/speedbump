@@ -1,18 +1,11 @@
 {
   "name": "speedbump",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Quickly bump package.json version.",
   "main": "index.js",
   "scripts": {
     "build": "npm install package.json && npm install -g",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TimothyStiles/speedbump.git"
-  },
-  "bin": {
-    "speedbump": "./index.js"
   },
   "keywords": [
     "npm",
@@ -23,6 +16,13 @@
   ],
   "author": "Timothy Stiles",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimothyStiles/speedbump.git"
+  },
+  "bin": {
+    "speedbump": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/TimothyStiles/speedbump/issues"
   },
