@@ -1,10 +1,11 @@
 {
   "name": "speedbump",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Quickly bump package.json version.",
   "main": "index.js",
   "scripts": {
     "build": "npm install package.json && npm install -g",
+    "publish": "git push -u origin master && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,7 +19,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimothyStiles/speedbump.git"
+    "url": "https://github.com/timothystiles/speedbump.git"
   },
   "bin": {
     "speedbump": "./index.js"
